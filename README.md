@@ -1,1 +1,1 @@
-# WineML
+# Wine Type Prediction
