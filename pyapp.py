@@ -26,8 +26,8 @@ rf_classif = load("rf_classif.model")
 Y_test_preds = rf_classif.predict(X_test)
 
 ## Dashboard
-st.title("Wine Type :red[Prediction] :bar_chart: :chart_with_upwards_trend: :tea: :coffee:")
-st.markdown("Predict Wine Type using Ingredients Values")
+st.title("Wine Type :red[Prediction]")
+st.markdown("Predict Wine Type using Ingredients Values :red[By Ilham Rofi'i]")
 
 tab1, tab2, tab3 = st.tabs(["Data :clipboard:", "Global Performance :weight_lifter:", "Local Performance :bicyclist:"])
 
